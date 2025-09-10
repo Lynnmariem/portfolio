@@ -3,6 +3,8 @@ body {
     height: 100vh;
     margin: 0; 
     padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #485166;
     background-color: #ffffff;
     background-image:
         radial-gradient(at 86.9815668202765% 80.2089819911824%, hsla(195,74%,83%,1.00) 0px, transparent 50%),
@@ -54,9 +56,40 @@ content {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 20px 20px 20px 20px;
-
-    height: 600px; /**/
     width: 80%;
     max-width: 982px;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+
+sec1 {
+    display:flex;
+    height: 32.75rem;
+    align-self: stretch;
+    border-radius: 1.25rem 1.25rem 0 0;
+
+}
+
+sec1 > div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 80%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.5rem; /* 112.5% */
+    margin: 0; 
+}
+
+sec1 > div > p {
+    width: 29.4375rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
