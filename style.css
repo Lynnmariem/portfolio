@@ -122,10 +122,13 @@ h2 {
     /*align-content: space-between;*/
     background-color: #FFF;
     border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
-    /*height: 16.6875rem;*/
+    height: 16rem;
     padding:1.5rem; 
     align-self: stretch; 
-    width: 100%;   
+    width: 100%;  
+    border-radius: 1.25rem;
+    border: 1px solid #DBDBDB;    
+    box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.08);
 }
 
 .card h3 {
@@ -152,12 +155,18 @@ h2 {
 
 .img-container {
     width: 33.33%;
-    background-color: pink;  
+    /*background-color: pink;  */
     margin-left: auto; 
+    /*flex-grow: 1; */
+    height: 100%;
 }
 
-.card img {
-    object-fit: scale-down;
+.img-container img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+
 }
 
 .btn {
@@ -173,5 +182,10 @@ h2 {
     background: #FFF;
     color: #107294;
     
+}
+
+.btn-outline:hover {     
+    background: #107294;
+    color: #FFF;
 }
    
