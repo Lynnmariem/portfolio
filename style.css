@@ -165,7 +165,7 @@ h2 {
 .img-container {
     flex: 1;
     margin-left: auto; 
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -198,4 +198,35 @@ h2 {
     background: #107294;
     color: #FFF;
 }
-   
+ 
+#small-cards {
+    display: flex; 
+    gap: 2rem; 
+}
+
+.small-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 0.75rem; 
+    width: 14.66688rem;
+    height: 21rem;
+    justify-content: space-between;
+}
+
+.small-card img {
+    object-fit: contain;
+    height: 100%;
+    display: block;
+    border-radius: 0.75rem; 
+}
+
+.small-card h3 {
+    margin-left: 1rem; 
+    
+}
+
+.small-card .btn {
+    margin-left: 1rem; 
+    margin-bottom: 0.86rem;
+}
