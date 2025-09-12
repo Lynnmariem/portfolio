@@ -98,10 +98,10 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 4.5rem;
+    /*gap: 2rem;*/
     align-self: stretch;
     background: #F8F8F8;
-    height: 800px;
+    /*height: 800px;*/
     padding: 3.5rem 5.69rem 3.5rem 5.69rem;
 }
 
@@ -115,6 +115,8 @@ h2 {
 #cards {
     display: flex;  
     width: 100%;
+    flex-direction: column;
+    gap: 2rem; 
 }
 
 .card {
@@ -174,9 +176,7 @@ h2 {
     /*max-width: 266px;*/
     height: 100%;
     display: block;
-    border-radius: 0.75rem; /* optional: damit Bild rundere Ecken hat */
-
-
+    border-radius: 0.75rem; 
 }
 
 .btn {
