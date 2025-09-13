@@ -42,6 +42,7 @@ nav {
 
 nav > a {
     text-decoration: none;
+    color: #485166;
 }
 
 main {
@@ -180,10 +181,13 @@ h2 {
 }
 
 .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 6.8125rem;
     height: 1.9375rem;
     flex-shrink: 0;
-    text-align: center;
+    text-decoration: none;
 }
 
 .btn-outline {
@@ -228,5 +232,28 @@ h2 {
 
 .small-card .btn {
     margin-left: 1rem; 
-    margin-bottom: 0.86rem;
+    margin-bottom: 1rem;
+    width: 4.9375rem;
+}
+
+#sec3 {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #FFF;
+    padding: 3.5rem 5.69rem 3.5rem 5.69rem;
+}
+
+#profile-container {
+    display: flex; 
+    width: 20%; 
+}
+
+#profile-container img {
+    max-width: 180px; 
+    object-fit: scale-down; 
+    height: 100%; 
+    display: block;
+    margin: auto; 
+
 }
