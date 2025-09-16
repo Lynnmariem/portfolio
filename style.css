@@ -243,6 +243,7 @@ h2 {
     align-self: stretch;
     background: #FFF;
     padding: 3.5rem 5.69rem 3.5rem 5.69rem;
+    border-radius: 0 0 1.25rem 1.25rem;
 }
 
 #sec3-content {
@@ -253,6 +254,8 @@ h2 {
 
 #profile-container {
     display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start;
     flex: 1;  
 }
 
@@ -261,7 +264,7 @@ h2 {
     object-fit: scale-down; 
     height: 100%; 
     display: block;
-    margin: auto; 
+    /*margin: auto; */
 
 }
 
