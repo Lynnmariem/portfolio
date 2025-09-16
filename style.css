@@ -43,6 +43,15 @@ nav {
 nav > a {
     text-decoration: none;
     color: #485166;
+    position: relative;
+    transition: 0.4s;
+    padding: 0.5rem;
+    border-radius: 1.25rem;
+}
+
+nav > a:hover {
+  background-color: #a6a6a698;
+  padding: 0.5rem 0.8rem;
 }
 
 main {
@@ -206,6 +215,7 @@ h2 {
 #small-cards {
     display: flex; 
     gap: 2rem; 
+    justify-content: center;
 }
 
 .small-card {
